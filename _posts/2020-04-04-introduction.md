@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introduction123
+title: Introduction
 ---
 
 *The Strange Case of Dr. Jekyll and Mr. Hyde* tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel's supporting cast is a man by the name of Mr. Poole, Dr. Jekyll's loyal butler.
@@ -18,7 +18,7 @@ There are currently two themes built on Poole:
 
 Learn more and contribute on [GitHub]({{ site.github.repo }}).
 
-## What's included
+## What's included123
 
 Poole is a streamlined Jekyll site designed and built as a foundation for building more meaningful themes. Poole, and every theme built on it like this one, includes the following:
 
