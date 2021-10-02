@@ -16,11 +16,12 @@
 				</a>
 				{%- if site.show_excerpts -%}{{ post.excerpt }}{%- endif -%}
 			</li>
-		  	{%- endfor -%}
+			{%- endfor -%}
 		</ul>
-	  	{%- endif -%}
+		{%- endif -%}
 	</div>
 </article>
+
 
 <script src="/public/js/jquery-3.4.1.slim.min.js"></script>
 <script>
@@ -42,7 +43,6 @@
 		removeCategory();
 	});
 	$(document).ready(() => {
-		removeCategory();	
+		removeCategory();
 	})
-	
 </script>

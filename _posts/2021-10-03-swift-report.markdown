@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "First post!"
-date:   2021-10-01 23:30:00 +0900
-categories: Update
+title:  "Swift report"
+date:   2021-10-03 06:22:00 +0900
+categories: Swift
 ---
 
 블로그의 첫 포스트 그냥 글을 쭉 쓰면 이렇게 나오는구나.  
@@ -14,7 +14,7 @@ Blog First Post
 이 포스트의 타이틀 : {{ page.title }} 이다.  
 {{ page.date }}  
 {{ site.title }}  
-{{ site.url }}
+{{ site.url }}  
 
 # <글머리>
 
