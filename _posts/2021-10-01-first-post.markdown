@@ -13,6 +13,7 @@ Blog First Post
 'dfsdfsdfasdfasdf'  
 이 포스트의 타이틀 : {{ page.title }} 이다.  
 {{ page.date }}  
+{{ site.title }}  
 
 # <글머리>
 
