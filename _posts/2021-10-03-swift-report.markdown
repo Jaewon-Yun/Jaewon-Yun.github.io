@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Swift report"
-date:   2021-10-03 06:22:00 +0900
+title:  "iOS프로그래밍기초(2-2학기)한성현교수 강의 내용 변형 및 요약"
+date:   2021-10-03 18:23:00 +0900
 categories: Swift
 ---
 
-ㄴㅇㅁㄹㄴㅁㅇㄹ
+# Content
+## Content
+### Content

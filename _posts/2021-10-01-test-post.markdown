@@ -36,8 +36,11 @@ Blog First Post
 # <강조효과>
 *single asterisks*  
 **double asterisks**  
+***triple asterisks***  
 _single underscores_  
 __double underscores__  
+~single tildes~  
+~~double tildes~~
 
 # <인용>
 > 인용문1
