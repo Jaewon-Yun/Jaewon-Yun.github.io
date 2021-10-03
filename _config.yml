@@ -37,7 +37,7 @@ plugins:
 category_dir: category/
 tag_dir: tag/
 
-permalink: /:categories/:title/
+# permalink: /:categories/:title/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
