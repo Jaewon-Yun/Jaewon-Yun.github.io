@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Test post!"
-date:   2021-10-01 23:30:00 +0900
+date:   2021-08-15 23:30:00 +0900
 categories: etc.
 ---
 
