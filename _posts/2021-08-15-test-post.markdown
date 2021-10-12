@@ -5,6 +5,8 @@ date:   2021-08-15 23:30:00 +0900
 categories: etc.
 ---
 
+{{ site.categories }}
+
 블로그의 첫 포스트 그냥 글을 쭉 쓰면 이렇게 나오는구나.  
 Blog First Post  
 가나다        라마바  
