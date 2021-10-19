@@ -5,4 +5,26 @@ date:   2021-09-02 00:00:00 +0900
 categories: Swift
 ---
 
-# Content
+# Swift로 이름 10번 출력하기
+
+```swift
+
+for i in 1...10 {
+    print("\(i): Gilding Hong")
+}
+
+// 1: Gilding Hong
+// 2: Gilding Hong
+// 3: Gilding Hong
+// 4: Gilding Hong
+// 5: Gilding Hong
+// 6: Gilding Hong
+// 7: Gilding Hong
+// 8: Gilding Hong
+// 9: Gilding Hong
+// 10: Gilding Hong
+
+```
+
+
+
