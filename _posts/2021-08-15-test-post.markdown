@@ -128,3 +128,8 @@ int main() {
     cout << "Hello World! " << x << std::endl();
 }
 ```
+
+inline `Swift` test
+
+- [x] check box
+- [ ] check box
