@@ -5,4 +5,50 @@ date:   2021-09-14 00:00:00 +0900
 categories: Swift
 ---
 
-# Content
+## 강의 내용 요약
+
+### App Store
+`App Store`는 개발자들이 `iOS SDK(Software Development Kit)`를 활용하여 개발한 App을 유통하여 수익을 낼 수 있는 장으로써 수익의 일정 퍼센트를 개발자가 가져가는 형태로 운영되고 있다.
+
+### Swift 특징
+`Multi-paradigm` 언어, `Chris Lattner`가 설계, Type-safe language
+- ‘;’ 세미콜론이 필수가 아님
+- ‘=’ 양쪽에는 공백이 있어야 한다.
+- 데이터 타입 : Int, Float, Double, Character, Bool, String, Void
+
+- 변수를 생성할 때 초깃값이 있으면 컴파일러가 데이터 타입을 추론(Type inference). 직접 타입을 명시(Type annotation)할 수도 있다.
+	- Ex)	var x = 5	// 컴파일러가 Int로 생성 (type inference)
+		var y : Int	// 데이터 타입을 직접 명시함 (type annotation)
+
+- func print(_ items: Any..., separator: String = “ “, terminator: String = “\n”)
+	* separator : 여러 인자를 출력할 때 공백이 아닌 다른 항목으로 출력하고 싶을 때 지정
+	* terminator : 인자를 출력하고 마지막에 출력되는 항목. 기본값이 개행(“\n”)이다.
+
+- type(of: anyVariable) : 해당 변수의 데이터 타입을 반환
+
+- MemoryLayout : 특정 데이터 타입의 메모리 정보를 제공하는 구조체
+	* MemoryLayout.size(ofValue: anyVariable) : 해당 변수의 실제 메모리 크기 반환
+	* MemoryLayout<Int>.size : Int의 실제 메모리 크기 반환
+
+- Swift는 하나의 문자를 표현하기 위해 Unicode 값을 사용
+
+- 문자 데이터 타입(Character)의 사용
+	Ex)	var char1 : Character
+		var char2 : Character = “a” // 초깃값 지정에 큰따옴표 사용
+		var char3 = “b” // 컴파일러가 타입 추론을 통하여 String형으로 생성함
+
+- 상수 let : 값을 한 번만 할당할 수 있음
+	Ex)	let PI : 3.14 // 값 변경 불가
+		let maxLength : Int // 값을 한 번 할당한 후에는 변경 불가
+
+- Tuple : 여러 값을 하나의 개체에 일시적으로 묶음
+	Ex)	var classroom = (35, “James”, 1.2) // classroom.0과 같이 인덱스로 접근 가능
+
+		// 각 값에 이름 할당 가능
+		var classroom = (studentsNum: 35, teacher: “James”, rank: 1.2)
+		// 이름으로 참조
+		print(classroom.teacher)	// “James”
+		print(classroom.rank)		// 1.2
+
+
+## 변수 생성
